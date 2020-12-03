@@ -106,7 +106,7 @@ namespace UnitySpineTest
         public void Add()
         {
             var isLoop = isLoopToggle.isOn;
-            var speed = (int)(speedSlider.value / 100f);
+            var speed = speedSlider.value / 100f;
             print($"track {trackSelected}, isLoop {isLoop}");
 
             var currentTrack = GetTrackInfo(trackSelected);
